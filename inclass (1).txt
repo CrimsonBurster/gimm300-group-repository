@@ -1,0 +1,11 @@
+<h3>Meet the Chefs</h3>
+			<p>Our Champion Chefs are world renowned and collected from all over runeterra to please your taste buds.
+				<ol>
+					<li>Tahm Kench</li>
+					<li>Leona</li>
+					<li>Akali</li>
+				</ol>
+				<a href="file:///C:/Users/Crimson/Documents/webpage/in%20class%201jan2020.html">
+					<img src=SushiBar.jpg width=400px>
+				</a>
+			</p>
