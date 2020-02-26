@@ -1,5 +1,5 @@
 <nav>
-  <a href="THis.html">Home</a>
-  <a href="reidpage.html">Reid</a>
-  <a href="rossPage.html">Ross</a>
+  <a href="THis.php">Home</a>
+  <a href="reidpage.php">Reid</a>
+  <a href="rossPage.php">Ross</a>
 </nav>
