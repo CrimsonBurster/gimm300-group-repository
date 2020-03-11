@@ -54,10 +54,10 @@ function healthChange(){
 }
 
 function gameCheck(modalTitle){
-  if (playerHealth == 0){
+  if (playerHealth <= 0){
     $("#modalDisp").modal()
   }
-  else if (monsterHealth == 0){
+  else if (monsterHealth <= 0){
     $("#modalDisp2").modal()
   }
 }
