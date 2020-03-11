@@ -24,6 +24,12 @@ playerAttack();
 monsterAttack();
 healthChange();
 
+document.getElementById("playerScoreDisp").innerHTML = "HP: " + playerHealth;
+document.getElementById("monsterScoreDisp").innerHTML = "HP: " + monsterHealth;
+document.getElementById("runningPlayerScore").innerHTML = "Attack Damage: " + attackDamage;
+document.getElementById("runningMonsterScore").innerHTML = "Monster Damage: " + monsterDamage;
+
+
 }
 
 function playerAttack(){
