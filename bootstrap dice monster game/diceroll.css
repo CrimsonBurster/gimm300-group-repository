@@ -1,0 +1,12 @@
+.col-lg{
+  padding: 20px;
+  margin: 20px;
+  border: solid 1px black;
+  text-align: center;
+}
+#button1{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
