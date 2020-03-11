@@ -29,7 +29,7 @@ document.getElementById("monsterScoreDisp").innerHTML = "HP: " + monsterHealth;
 document.getElementById("runningPlayerScore").innerHTML = "Attack Damage: " + attackDamage;
 document.getElementById("runningMonsterScore").innerHTML = "Monster Damage: " + monsterDamage;
 
-
+gameCheck();
 }
 
 function playerAttack(){
@@ -51,6 +51,15 @@ function monsterAttack(){
 function healthChange(){
   playerHealth -= monsterDamage;
   monsterHealth -= attackDamage;
+}
+
+function gameCheck(modalTitle){
+  if (playerHealth == 0){
+    $("#modalDisp").modal()
+  }
+  else if (monsterHealth == 0){
+    $("#modalDisp2").modal()
+  }
 }
 
 document.getElementById("button1").onclick = rollTheDice
